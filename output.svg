@@ -1,1 +1,1 @@
-<svg width="200" height="200"><rect x="50" y="50" width="100" height="100" fill="black" /><text x="100" y="100" fill="white" font-size="24" font-family="Arial" text-anchor="middle" dy=".3em">mj</text></svg>
+<svg width="200" height="200"><polygon points="100,10 190,190 10,190" fill="black" /><text x="100" y="100" fill="#9beb34" font-size="24" font-family="Arial" text-anchor="middle" dy=".3em">maj</text></svg>

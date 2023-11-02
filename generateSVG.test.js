@@ -38,7 +38,7 @@ describe('generateSVG', () => {
     const result = generateSVG(details);
 
     // Check if the generated SVG contains the expected square (rectangle) element
-    expect(result).toContain('<rect width="100" height="100" fill="#33FF57" />');
+    expect(result).toContain('<rect x="50" y="50" width="100" height="100" fill="#33FF57" />');
 
     // Check if the generated SVG contains the expected text element with the name 'AB'
     expect(result).toContain('<text x="100" y="100" fill="#FFFFFF" font-size="24" font-family="Arial" text-anchor="middle" dy=".3em">AB</text>');
