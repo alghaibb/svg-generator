@@ -6,7 +6,7 @@ async function main() {
   const details = await getSVGDetails(); // Get user input
   const svg = generateSVG(details); // Generate SVG based on user input
 
-  console.log(svg); // Print the generated SVG
+  console.log("Your SVG was generated successfully!\n"); // Print the generated SVG
 
   // Generate HTML content with SVG image embedded
   const htmlContent = `
